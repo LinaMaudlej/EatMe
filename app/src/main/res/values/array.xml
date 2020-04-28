@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string-array name="diatry_choices" >
+    <item>Vegan diet</item>
+    <item>Vegetarian diet</item>
+    <item>Halal diet</item>
+    <item>Kashir diet</item>
+
+    <item>Allergy to eggs</item>
+    <item>Allergy to shellfish</item>
+    <item>Allergy to gluten</item>
+    <item>Allergy to nuts</item>
+    <item>Allergy to lactose</item>
+    <item>Allergy to soy</item>
+  </string-array>
+
+</resources>

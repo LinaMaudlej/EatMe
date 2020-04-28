@@ -1,0 +1,22 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="android:colorForeground">@color/pinkUniq</item>
+        <item name="android:navigationBarColor">@color/pinkUniq</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/pinkUniq</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="colorAccent">@color/pinkUniq</item>
+        <item name="colorPrimaryDark">@color/pinkUniq</item>
+        <item name="colorPrimary">@color/pinkUniq</item>
+        <item name="android:colorBackground">@color/white</item>
+
+    </style>
+    <style name="ActionBarBase" parent="@style/AppTheme"/>
+
+    <style name="styleMainActivity" parent="@style/AppTheme"/>
+
+
+
+</resources>

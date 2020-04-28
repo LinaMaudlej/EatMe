@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "509525393773",
+    "firebase_url": "https://eatme-162419.firebaseio.com",
+    "project_id": "eatme-162419",
+    "storage_bucket": "eatme-162419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509525393773:android:7ea1dbc892c8390a",
+        "android_client_info": {
+          "package_name": "com.example.user.eatmeapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509525393773-vijc6uu3j6p335ddi1rm2b0kp1c1irqp.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "509525393773-db1bps72mg4hp7la2ht1bdafmllmm87j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.eatmeapplication",
+            "certificate_hash": "38321c866f0007b49f5c77001ac2ee945428cea3"
+          }
+        },
+        {
+          "client_id": "509525393773-ettqoivnphilfrqmfim0vgu5on42eecr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAYSMiFbG01NBn1nW26XtrhXCjFgoZtOo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509525393773-vijc6uu3j6p335ddi1rm2b0kp1c1irqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

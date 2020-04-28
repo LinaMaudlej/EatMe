@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:andriod="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_centerVertical="false"
+    android:layout_gravity="center_horizontal"
+    android:focusableInTouchMode="true"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageProduct"
+                    android:layout_height="130dp"
+                    android:maxWidth="150dp"
+                    android:maxHeight="150dp"
+                    android:layout_marginLeft="8dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+
+                    andriod:srcCompat="@drawable/sugarfree"
+                    android:id="@+id/sugarFree"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/imageProduct" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:id="@+id/productRecycle"
+
+                    android:adjustViewBounds="false"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    andriod:srcCompat="@drawable/recycle"
+                    android:layout_alignBottom="@+id/sugarFree"
+                    android:layout_toEndOf="@+id/imageProduct"
+                    android:layout_alignTop="@+id/sugarFree" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="8dp"
+                android:text="My Name is"
+                android:layout_weight="0.05"
+                android:layout_gravity="center"
+                android:gravity="center_vertical|center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:weightSum="1">
+
+                <!--<RatingBar-->
+                    <!--android:id="@+id/ratingBar"-->
+                    <!--style="?android:attr/ratingBarStyleSmall"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:layout_marginLeft="40dp"-->
+                    <!--android:stepSize="0.5"-->
+                    <!--android:rating="0.0"-->
+                    <!--android:numStars="5"-->
+                    <!--android:progressBackgroundTint="@color/gray"-->
+                    <!--android:progressTint="@color/colorAccent"-->
+                    <!--android:secondaryProgressTint="@color/colorAccent"-->
+                    <!--android:isIndicator="false"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--/>-->
+
+                <!--<ImageButton-->
+                    <!--android:id="@+id/sendButton"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="32dp"-->
+                    <!--android:src="@android:drawable/checkbox_on_background"-->
+                    <!--style="@android:style/Widget.Holo.ImageButton"-->
+                    <!--android:background="@color/colorAccent"-->
+                    <!--android:layout_weight="0.05"-->
+                    <!--android:visibility="visible" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/diatryLaws"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Diatry Laws:"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/DiatryLawsTitle"
+                        android:layout_weight="0.08"
+                        style="?attr/titleTextStyle"
+                        android:textColor="@color/zxing_viewfinder_mask" />
+
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="377dp"
+                    android:layout_height="92dp">
+
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/prodcutHalal"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="14dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/prodcutKashir"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/prodcutHalal"
+                        android:layout_marginStart="14dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/prodcutVegetarian"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/prodcutKashir"
+                        android:layout_marginStart="14dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/prodcutVegan"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/prodcutVegetarian"
+                        android:layout_marginStart="14dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/allergies">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:weightSum="1">
+
+                    <TextView
+                        android:text="Allergies:"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/AllargiesTitle"
+                        android:layout_weight="0.08"
+                        style="?attr/titleTextStyle"
+                        android:textColor="@color/zxing_viewfinder_mask" />
+
+
+                </LinearLayout>
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productFish"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        andriod:layout_constraintTop_toBottomOf="@+id/productNuts"
+                        tools:layout_editor_absoluteX="16dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productSoy"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="8dp"
+                        andriod:layout_constraintLeft_toRightOf="@+id/productFish"
+                        andriod:layout_constraintTop_toTopOf="@+id/productFish" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productGluten"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="14dp"
+                        andriod:layout_constraintLeft_toRightOf="@+id/productLactose"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productLactose"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="14dp"
+                        andriod:layout_constraintLeft_toRightOf="@+id/productEggs"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productEggs"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="14dp"
+                        andriod:layout_constraintLeft_toRightOf="@+id/productNuts"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="98dp"
+                        andriod:srcCompat="@drawable/home"
+                        android:id="@+id/productNuts"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        tools:layout_editor_absoluteY="0dp"
+                        tools:layout_editor_absoluteX="0dp" />
+
+                </android.support.constraint.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ListView
+                    android:id="@+id/listGraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteY="-210dp"
+                    tools:layout_editor_absoluteX="8dp">
+                </ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

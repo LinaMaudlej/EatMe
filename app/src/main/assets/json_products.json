@@ -1,0 +1,65 @@
+{
+    "products":[
+        {
+            "barcode": "7290000688077",
+            "name": "מי עדן",
+            "safeFood": "True",
+            "image": "http://www.slk.co.il/Cache/Images/1/_Content_ImportedProductImages_688077_800_800.png",
+            "rating": 0,
+            "numUsersRated":0,
+
+            "company": "מי עדן",
+            "type": "liquid",
+            "description": "מים מינרליים טבעים",
+            "volume": 0.5,
+
+            "recycle": true,
+            "sugarFree": true,
+
+            "kashir": true,
+            "halal": true,
+            "vegan": true,
+            "vegetarian": true,
+
+            "lactose": false,
+            "eggs": false,
+            "nuts": false,
+            "fish": false,
+            "gluten": false,
+            "soy": false,
+
+            "calories": -1,
+            "proteins": -1,
+            "fats": -1,
+            "carbohydrates": -1
+        },
+        {
+            "Barcode": "5000159482172",
+            "Name": "Twix",
+            "SafeFood": "True",
+            "Image": "http://prododo.pl/media/cache/product_gallery/images/db/products/13410/baton-twix-58g.jpeg",
+            "Rating": 0,
+            "UsersRated": 0,
+            "Company": "Mars",
+            "Type": "sold",
+            "Description": "chocolate",
+            "Volume": 58,
+            "Recycle": "False",
+            "SugarFree": "False",
+            "Kashir": "True",
+            "Halal": "True",
+            "Vegan": "False",
+            "Vegetarian": "True",
+            "Lactose": "True",
+            "Eggs": "False",
+            "Nuts": "True",
+            "Fish": "False",
+            "Gluten": "True",
+            "Soy": "False",
+            "Calories": 285.94,
+            "Proteins": 4.4,
+            "Fats": 23.7,
+            "Carbohydrates": 64.9
+        }
+     ]
+}
